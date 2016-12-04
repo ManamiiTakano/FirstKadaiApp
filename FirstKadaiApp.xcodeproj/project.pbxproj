@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					0A206E141DEF1BFF003B5DD2 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 528GYEY5W3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +259,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 528GYEY5W3;
 				INFOPLIST_FILE = FirstKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.manami.takano.FirstKadaiApp;
@@ -270,6 +273,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 528GYEY5W3;
 				INFOPLIST_FILE = FirstKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.manami.takano.FirstKadaiApp;
@@ -297,6 +302,7 @@
 				0A206E291DEF1C00003B5DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
